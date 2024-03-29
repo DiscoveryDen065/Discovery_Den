@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hackathon2</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="literacy">Literacy</string>
+    <string name="logic">Logic</string>
+    <string name="learn">Learn</string>
+    <string name="games">Games</string>
+    <string name="blank" />
+    <string name="email">email</string>
+    <string name="login">Login</string>
+    <string name="password" />
+    <string name="Login" />
+    <string name="Register" />
+    <string name="confirmpassword" />
+    <string name="next">Next</string>
+</resources>

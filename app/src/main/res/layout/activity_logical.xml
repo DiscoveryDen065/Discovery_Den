@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE7DD"
+    tools:context=".Mathematics">
+
+
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="339dp"
+        android:src="@drawable/profile_icon" />
+
+    <Button
+        android:id="@+id/learn"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/peach"
+        android:text="@string/learn"
+        android:textColor="#020202"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="@color/peach"
+        android:text="@string/games"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/kids" />
+
+    <ImageView
+        android:id="@+id/challenge"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginBottom="-6dp"
+        app:srcCompat="@drawable/challenge" />
+
+    <ImageView
+        android:id="@+id/chatbot"
+        android:layout_width="91dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="81dp"
+        app:srcCompat="@drawable/chatbot" />
+
+    <ImageView
+        android:id="@+id/leader"
+        android:layout_width="72dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="1dp"
+        app:srcCompat="@drawable/leader" />
+
+
+    <ImageView
+        android:id="@+id/reward"
+        android:layout_width="91dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="-3dp"
+        app:srcCompat="@drawable/rewa" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="-7dp"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/community"
+        android:layout_width="80dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="-4dp"
+        app:srcCompat="@drawable/community" />
+
+
+</RelativeLayout>
